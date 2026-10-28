@@ -2,24 +2,24 @@
 class Eigenform < Formula
   desc "Control surface over Claude Code sessions"
   homepage "https://github.com/rdmontgomery/eigenform"
-  version "0.1.325"
+  version "0.1.327"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/rdmontgomery/eigenform/releases/download/v0.1.325/eigenform-aarch64-apple-darwin.tar.gz"
-      sha256 "27e16efd0f4949a8b736e5b435e58ad57c739bf2b88fd14e29f1860773b87def"
+      url "https://github.com/rdmontgomery/eigenform/releases/download/v0.1.327/eigenform-aarch64-apple-darwin.tar.gz"
+      sha256 "cbf65d3dabde5d5e0e2b7b9636a766f1e0a899fb588a2ed1bd07ace5f5722f41"
     end
     on_intel do
-      url "https://github.com/rdmontgomery/eigenform/releases/download/v0.1.325/eigenform-x86_64-apple-darwin.tar.gz"
-      sha256 "0db572d85f465f24f2cd71dc359c90c2b781a4909c7d02e535d99fdf423f4163"
+      url "https://github.com/rdmontgomery/eigenform/releases/download/v0.1.327/eigenform-x86_64-apple-darwin.tar.gz"
+      sha256 "aa8dc33cbe3f05aa78fdf7afbf118d858c884986b88f41568e0564eaafc5586c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/rdmontgomery/eigenform/releases/download/v0.1.325/eigenform-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "98053acea3d7f0c94e3cc3578535b6e8c846fd92b94c19f4e7de5c6cd96b1e59"
+      url "https://github.com/rdmontgomery/eigenform/releases/download/v0.1.327/eigenform-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bfb4e04f8a9537c8e8c577720f82f273917a67b8cec82665e7474faf168f3fd1"
     end
   end
 
